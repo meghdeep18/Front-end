@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+     .main
+    {
+            width: 80%;
+            border: 1px solid black;
+            margin: 50px auto;
+            display: grid;
+            grid-template-rows: 60px 100px 200px 60px;
+            grid-template-columns: repeat(3,1fr) 200px;
+            grid-gap: 20px;
+            text-align: center;
+        
+    }
+    .header
+    {
+        background-color: #F0EBCE;
+        grid-column: 1/-1;
+    }
+    
+    .box1 ,.box2, .box3
+    {
+        background-color: #4E6C50;
+    }
+    /* .box2
+    {
+        background-color: #4E6C50;
+    }
+    .box3
+    {
+       background-color:  #4E6C50;
+    } */
+    .sidebar
+    {
+        background-color: #AA8B56;
+        grid-row: 2/4;
+        grid-column: 4/5;
+    }
+    .maincontent
+    {
+        background-color: #395144;
+        
+        grid-column:1/4 ;
+    }
+    .footer
+    {
+        background-color: black;
+        grid-column: 1/-1;
+        color: #fff;
+    }
+    </style>
+</head>
+<body> 
+<div class="main">
+    <div class="header">header</div>
+
+    <div class="box1"> box1</div>
+
+    <div class="box2"> box2</div>
+
+    <div class="box3"> box3</div>
+
+    <div class="sidebar">sidebar</div> 
+
+    <div class="maincontent"> maincontent</div>
+
+    <div class="footer">footer</div>
+</div>
+</body>
+</html>
