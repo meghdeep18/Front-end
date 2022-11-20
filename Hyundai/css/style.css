@@ -60,7 +60,7 @@
 }
 .findacar
 {
-    margin-top: 24%;
+    margin-top: 22%;
     padding-top: 15px;
     height: 50px;
     background-color:  #082849!important;
@@ -189,26 +189,26 @@ label
 {
     display: flex;
     margin-left: 20px;
-    
-  
 }
 .Showroomh
 {
     margin-top: 50px;
     margin-right: 150px;
-
+    margin-left: 10px;
+    font-family: 'Ubuntu', sans-serif;
 }
 h5
 {
     margin-top: 50px;
     margin-right: 300px;
+    margin-left: 10px;
     font-family: 'Ubuntu', sans-serif;
 }
 
 .businness
 {
     margin-top: 50px;
-    margin-right:200px;
+    margin-right:150px;
     font-family: 'Ubuntu', sans-serif;
 }
 .review
@@ -216,4 +216,9 @@ h5
     margin-top: 50px;
     margin-left: 250px;
     font-family: 'Ubuntu', sans-serif;
+}
+
+.cookies
+{
+    background-color: #082849;
 }
