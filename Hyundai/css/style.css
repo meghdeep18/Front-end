@@ -60,7 +60,7 @@
 }
 .findacar
 {
-    margin-top: 22%;
+    margin-top: 24.7%;
     padding-top: 15px;
     height: 50px;
     background-color:  #082849!important;
@@ -189,6 +189,7 @@ label
 {
     display: flex;
     margin-left: 20px;
+    
 }
 .Showroomh
 {
@@ -217,8 +218,15 @@ h5
     margin-left: 250px;
     font-family: 'Ubuntu', sans-serif;
 }
-
 .cookies
 {
+    height: 30px;
+    width: 100%;
     background-color: #082849;
+    margin-top: 25%;
+    text-align: center;
+    color: #fff;
+    padding: 7px;
+    position: fixed;
+    bottom: 0%;
 }
