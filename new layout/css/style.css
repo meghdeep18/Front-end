@@ -1,0 +1,128 @@
+.header
+{
+     height: 150px;
+    width: 100%;  
+    /* background-color: black; */
+    display: flex;
+}
+
+
+/* <!----------------------------------------------------------------------------------------------------------------------------------------------------------------> */
+.logo
+{
+    height: 150px;
+    width: 20%;
+}
+/* for image  */
+.logo img
+{
+    height: 150px;
+    width: 100%;
+}
+/*ends*/
+
+
+/* <!----------------------------------------------------------------------------------------------------------------------------------------------------------------> */
+/* icon  starts */
+.name
+{
+    height: 150px;
+    width: 80%;
+    padding-left: 20%;
+}
+.icon
+{
+height: 75px;
+width: 40%;
+padding-left: 58%;
+}
+.number:hover
+{
+    color: #AE8625;
+}
+.Gettouch:hover
+{
+    color: #AE8625;
+}
+/* icon ends */
+
+
+
+/* <!----------------------------------------------------------------------------------------------------------------------------------------------------------------> */
+/* for list */
+ul
+{
+    display: flex;
+    height: 75%;
+    margin: 0%;
+    padding: 0%;
+    /* width: 100%; */
+    padding-left: 0px;
+}
+li
+{
+    list-style: none;
+     padding: 10px 20px;
+
+}
+/* ends */
+
+
+/* <!----------------------------------------------------------------------------------------------------------------------------------------------------------------> */
+/* section 2 image starts  */
+.section2
+{
+width:100%;
+}
+.section2 img
+{
+    height: 500px;
+    margin-top: 20px;
+    width: 100%;
+}
+hr
+{
+    width: 10%;
+    color: #AE8625
+}
+/* section 2 image ends */
+/* <!----------------------------------------------------------------------------------------------------------------------------------------------------------------> */
+.content h4
+{
+text-align: center;
+}
+h4::selection
+{
+    background-color: black;
+    color: white;
+}
+.content h2
+{
+    text-align: center;
+    font-size: 33px;
+}
+h2::selection
+{
+background-color: black;
+color: white;
+}
+h3
+{
+    margin-top: 2px;
+    font-size:33px ;
+    text-align: center;
+}
+.para
+{
+    font-size:20px ;
+    margin-left: 150px;
+    margin-right:150px ;
+    color: #626262;
+    font-family: serif;
+}
+.para::selection
+{
+background-color: rgb(16, 13, 13);
+color: white;
+}
+/* <!----------------------------------------------------------------------------------------------------------------------------------------------------------------> */
