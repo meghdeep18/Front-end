@@ -2,9 +2,11 @@
 
 *
 {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: 'neue-haas-grotesk-display',sans-serif;
+   
 
     
 }
@@ -12,8 +14,8 @@
 {
     
     background-color: rgb(fff);
-    height: 100vh;
-    width: 100vw;
+    height: 90vh;
+    width: 97vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,14 +23,52 @@
 }
 .text
 {
+margin-left: 10%;
 height: 200px;
 width: 100%;
 text-align: center;
 background-image: url(stars-star-gazing.gif);
-background-size: 750px 300px;
-font-size: 120px; 
-font-weight: bolder;
+background-size: 400px 300px;
+font-size: 130px; 
+font-weight: 900;
 -webkit-text-fill-color: transparent;
 -webkit-background-clip:text;
+}
+
+.text::selection
+{
+    background-color: black;
+    color: white;
+    opacity: calc(0.2);
+}
+
+.navbar ul
+{
+    display: flex;
+    list-style: none;
+    margin-top: 3%; 
+    margin-left: 70%;    
+}
+.navbar li
+{
+    font-weight: 35px;
+    padding-left: 25px;
+    font-size: 20px;
+}
+.navbar a
+{
+    text-decoration: none;
+    color: black;
+}
+.navbar a:hover
+{
+    opacity: 0.4;
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 234, 255);
+}
+li::selection
+{
+background-color: black;
+color: white;
 }
 
