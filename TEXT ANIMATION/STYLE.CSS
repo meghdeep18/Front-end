@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@500&family=Rubik+Bubbles&display=swap');
-
+/* text animation starts */
 *
 {
     box-sizing: border-box;
@@ -42,12 +42,35 @@ font-weight: 900;
     opacity: calc(0.2);
 }
 
+/* animation of text ends here */
+
+/* navbar starts */
+.navbar-brand
+{
+    padding-left: 10%; 
+    font-weight: 700;
+    text-decoration: none;
+    background-color: #fff;
+
+}
+.navbar-brand:hover
+{
+    font-weight: 250 ;
+}
+.navbar
+{
+    background-color: rgb(fff);
+}
+.nav.link
+{
+padding-left: 73%;
+}
 .navbar ul
 {
     display: flex;
     list-style: none;
     margin-top: 3%; 
-    margin-left: 70%;    
+    margin-left: 65%;    
 }
 .navbar li
 {
@@ -60,7 +83,7 @@ font-weight: 900;
     text-decoration: none;
     color: black;
 }
-.navbar a:hover
+.nav-item a:hover
 {
     opacity: 0.4;
     text-decoration: underline;
@@ -71,4 +94,11 @@ li::selection
 background-color: black;
 color: white;
 }
+i:hover
+{
+    color: aqua;
+}
+
+/* navbar ends here  */
+
 
