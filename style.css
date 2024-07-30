@@ -1,0 +1,48 @@
+*{
+  
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+
+#page
+{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page1
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(11, 132, 168);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page2
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(17, 92, 232);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box
+{
+    height: 150px;
+    width:150px;
+    background-color: rgb(27, 24, 24);
+}
