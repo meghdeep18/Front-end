@@ -92,13 +92,12 @@ html,body{
     margin-left: 23VW;
     
 }
-#page1 video
-{
-    width:60%;
+#page1 video{
+    width: 50%;
     margin-top: 10vw;
-   position: relative;
-   left: 50%;
-   transform: translate(-50%,0);
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
 }
 /*  */
 #page2
@@ -283,7 +282,6 @@ html,body{
 
 #box:nth-last-child(1){
     border-bottom: 2px solid #dadada;
-
 }
 
 footer{

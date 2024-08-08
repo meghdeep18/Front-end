@@ -140,6 +140,43 @@ elem.addEventListener("mouseleave",function(){
 });
 
 
+function cursorOnVideo(video, text1, text2){
+  cursor.classList.add('#cursor');
+  if(video.muted ){
+      cursor.innerHTML = text1;
+  }
+  else{
+      cursor.innerHTML = text2;
+  }
+}
+
+videos.cursor((video) => {
+  video.addEventListener('mousemove', function(){
+      cursorOnVideo(video, "sound on", "sound off");
+  })
+});
+
+videos.cursor((video) => {
+  video.addEventListener('mouseenter', function(){
+      cursorOnVideo(video, "sound on", "sound off");
+  })
+});
+
+videos.cursor((video) => {
+  video.addEventListener('click', function(){
+      video.muted = !video.muted;
+  })
+});
+
+videos.cursor((video) => {
+  video.addEventListener('mouseleave', function(){
+      cursor.classList.remove('cursor-active');
+      cursor.innerHTML = "";
+  });
+});
+
+
+
 
 
 
