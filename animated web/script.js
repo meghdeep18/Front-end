@@ -313,7 +313,7 @@ function anim(){
     }, "start")
 
     tl.to(".page1 video", {
-        width: "85%",
+        width: "99%",
     }, "start")
 
 
